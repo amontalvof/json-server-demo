@@ -11,6 +11,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "json-server": "^0.17.1"
+        "json-server": "^0.17.1",
+        "node-fetch": "^2.6.8"
+    },
+    "devDependencies": {
+        "eslint": "^8.33.0"
     }
 }
