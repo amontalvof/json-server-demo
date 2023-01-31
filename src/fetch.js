@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = 'http://localhost:8080/api';
 
 const fetchWithoutToken = async (endpoint, data, method = 'GET') => {
     const url = `${baseUrl}/${endpoint}`;
