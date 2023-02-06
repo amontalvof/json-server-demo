@@ -1,5 +1,6 @@
-const fetchWithoutToken = require('./src/fetch');
+const fetchWithoutToken = require('./fetch');
 
+// q search query
 const url = 'products?q=in';
 
 fetchWithoutToken(url)
