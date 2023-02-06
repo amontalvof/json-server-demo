@@ -1,4 +1,4 @@
-const fetchWithoutToken = require('./src/fetch');
+const fetchWithoutToken = require('./fetch');
 
 // gte = greater than or equal to
 // lte = less than or equal to
