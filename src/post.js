@@ -1,4 +1,4 @@
-const fetchWithoutToken = require('./src/fetch');
+const fetchWithoutToken = require('./fetch');
 
 const url = 'products';
 
