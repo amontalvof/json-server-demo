@@ -1,9 +1,7 @@
 const fetchWithoutToken = require('./src/fetch');
 
-const url = 'products/11';
+const url = 'products';
 
-const data = {};
-
-fetchWithoutToken(url, data, 'DELETE')
+fetchWithoutToken(url)
     .then((resp) => console.log(resp))
     .catch((error) => console.error(error.message));
